@@ -2,7 +2,7 @@
 Unsure why this isn't in the W3C Repo. I've copied the [zip file from the Template page](https://www.w3.org/2025/Talks/TPAC/Templates/) to here so that it is easier to track.
 
 ## My copy of the template
-[Overview.html](https://mgifford.github.io/w3c-tpac-template/Templates/Overview.html)
+[Overview.html](https://mgifford.github.io/w3c-tpac-susty-breakout/Templates/Overview.html)
 
 The presentation starts with an overview. To start the presentation, press play (at the bottom).
 
