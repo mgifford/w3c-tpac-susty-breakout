@@ -4,7 +4,7 @@
  <head>
   <meta charset=UTF-8>
   <meta content="width=device-width" name="viewport">
-  <title>%%Title%%</title>
+  <title>W3C TPAC Sustainable Web Guidelines Breakout Discussion</title>
   <link rel="stylesheet" href="../Templates/slides.css">
   <!-- To use the b6+ framework, include this: -->
   <script src="../Templates/b6plus.js"></script>
@@ -20,10 +20,17 @@
  <body class="shower fade-in duration=15 hidemouse">
 
   <section class=comment>
-   <p>Slides for Web Sustainability Guidelines Interest Group of the W3C for <a
-   href="https://www.w3.org/2025/11/TPAC/">TPAC 2025</a>.</p>
+   <p>This slide deck is for the <a
+   href="https://www.w3.org/2025/11/TPAC/">Sustainable Web Guidelines Breakout Discussion</a> at TPAC 2025.</p>
 
-   <p><strong>Author(s):</strong> Mike Gifford and Tzviya Siegman.</p>
+   <p>The <a href="https://github.com/w3c/tpac2025-breakouts/issues/17">breakout topic</a> was added in the TPAC 2025 Breakout Groups <a href="https://github.com/w3c/tpac2025-breakouts/issues/17">issue</a>. The <a href="https://www.w3.org/events/meetings/f7fcc7e0-49fc-4636-bd06-9f31babc0352/">official breakout description</a> from the W3C. </p>
+
+   <p>Date: 12 November 2025, 08:30–09:30 JST</p>
+
+   <p>Location: Floor 4 - 403</p>
+   <p><b>In-person Participants:</b> Mike Gifford, Fershad Irani, Kazuhito Kidachi, Tzviya Siegman, Jennifer Strickland</p>
+   <p><b>Remote Participants:</b> Ines Akrap, Alexander Dawson, Tim Frick, Susannah Hill</p>
+
 
    <p><strong>Reader(s):</strong>
    <!-- For b6plus: -->
@@ -71,11 +78,11 @@
 
 
   <section class="slide cover clear" id="cover">
-   <h1>%%Title%%</h1>
-   <address>%%Author%%</address>
+   <h1>W3C TPAC Sustainable Web Guidelines Breakout Discussion</h1>
+   <address>W3C Sustainable Web Interest Group</address>
    <p class=event>TPAC 2025<br>
      Kobe, Japan &amp; online<br>
-     10–14 November 2025</p>
+     12 November 2025, 08:30–09:30 JST</p>
   </section>
 
   <section class=comment>
@@ -84,16 +91,15 @@
 
 
   <section class="slide" id="lists">
-   <h2>Lists</h2>
-   <h3>This is an H3</h3>
-   <ol>
-    <li>Potatoes</li>
-    <li>Onions and olives</li>
-   </ol>
-   <h3>Another H3</h3>
+   <h2>Agenda</h2>
    <ul>
-    <li>North pole</li>
-    <li>East pole</li>
+    <li>Introductions and introduction to the WSG</li>
+    <li>What's changed changed since it was a CG?</li>
+    <li>What about AI?</li>
+    <li>How to incorporate sustainability alongside accessibility and privacy, performance?</li>
+    <li>How to ensure testability / measure-ability and avoid greenwashing?</li>
+    <li>Opportunities to highlight integrations with other standards</li>
+    <li>Next steps: pilots, adoption paths, and potential W3C involvement</li>
    </ul>
   </section>
 
@@ -102,617 +108,135 @@
   </section>
 
 
-  <section class="slide slide-in">
-   <h2>Lists with icons</h2>
-   <ul class=with-icons>
-    <li><span>♪</span> North pole</li>
-    <li><span>🍉</span> East pole</li>
-    <li><img src="../Templates/piechart.png" alt="pie chart"> Metro pole</li>
-    <li><img src="../Templates/simple-car-icon.svg" alt="car"> Straw pole</li>
-    <li><span>🐥</span> Pole tree</li>
-   </ul>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-   <h2>Some elements</h2>
-   <p>Words can be given a <strong>strong emphasis</strong>, which
-   makes them appear in bold</p>
-   <p>The <em>normal emphasis</em> has a highlighter effect.</p>
-   <p>Code looks like this: <code>if (a) return b;</code></p>
-   <p>This link goes to <a href="#lists">slide 2</a></p>
-   <p class="note">This is an example of a note, in a smaller font</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-   <h2>Incremental display (1/3)</h2>
-   <div class=columns>
-    <div>
-     <p>Unfold (default style)</p>
-     <ul>
-      <li>This item is shown right away</li>
-      <li class="next">This one appears on a key press</li>
-      <li class="next">The 2nd key press reveals this</li>
-      <li class="next">And then this</li>
-     </ul>
-    </div>
-    <div>
-     <p>Fade in (<code>class=emerge</code>)</p>
-     <ul class=emerge>
-      <li>This item is shown right away</li>
-      <li class="next">This one appears on a key press</li>
-      <li class="next">The 2nd key press reveals this</li>
-      <li class="next">And then this</li>
-     </ul>
-    </div>
-   </div>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide cut-in">
-   <h2>Incremental display (2/3)</h2>
-   <div class=columns>
-    <div>
-     <p>Quick<br> (<code>class=quick</code>)</p>
-     <ul class=quick>
-      <li class="next">This one appears on a key press</li>
-      <li class="next">The 2nd key press reveals this</li>
-      <li class="next">And then this</li>
-     </ul>
-    </div>
-    <div>
-     <p>Fade in + red items<br> (<code>class="emerge strong"</code>)</p>
-     <ul class="emerge strong">
-      <li class="next">This one appears on a key press</li>
-      <li class="next">The 2nd key press reveals this</li>
-      <li class="next">And then this</li>
-     </ul>
-    </div>
-   </div>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-   <h2>Incremental display (3/3)</h2>
-   <div class=columns>
-    <div>
-     <p>Quick + greeked<br> (<code>class="quick greeked"</code>)</p>
-     <ul class="quick greeked">
-      <li class="next">The first item</li>
-      <li class="next">Another item</li>
-      <li class="next">The third item</li>
-     </ul>
-    </div>
-    <div>
-     <p>Fade in + red + dim (<code>class= "emerge strong dim"</code>)</p>
-     <ul class="emerge strong dim">
-      <li class="next">This one appears on a key press</li>
-      <li class="next">The 2nd key press reveals this</li>
-      <li class="next">And then this</li>
-     </ul>
-    </div>
-   </div>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide" id="in-place">
-   <h2>Elements updated in-place</h2>
-   <p>Combining class=incremental with class=in-place
-     yields elements that are displayed one by one, with each one
-     replacing the previous. Example:
-   <div class="incremental in-place quick">
-    <table class=game>
-     <tr><td> <td> <td> 
-     <tr><td> <td>X<td> 
-     <tr><td> <td> <td> 
-    </table>
-    <table class=game>
-     <tr><td> <td> <td>O
-     <tr><td> <td>X<td> 
-     <tr><td> <td> <td> 
-    </table>
-    <table class=game>
-     <tr><td> <td>X<td>O
-     <tr><td> <td>X<td> 
-     <tr><td> <td> <td> 
-    </table>
-    <table class=game>
-     <tr><td> <td>X<td>O
-     <tr><td> <td>X<td> 
-     <tr><td> <td>O<td> 
-    </table>
-    <table class=game>
-     <tr><td>X<td>X<td>O
-     <tr><td> <td>X<td> 
-     <tr><td> <td>O<td> 
-    </table>
-    <table class=game>
-     <tr><td>X<td>X<td>O
-     <tr><td> <td>X<td>O
-     <tr><td> <td>O<td> 
-    </table>
-    <table class=game>
-     <tr><td><b>X</b><td>X<td>O
-     <tr><td> <td><b>X</b><td>O
-     <tr><td> <td>O<td><b>X</b>
-    </table>
-   </div>
-   <p class=note>(class=overlay is an alias for class=incremental.)
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide move-up quick">
-   <h1>‘Slipshow’ presentations</h1>
-   <p>A <em>slipshow</em> presentation is one where you don't put each
-    topic on a separate slide, but add it to a long scroll, which
-    automatically moves up to display it.</p>
-   <p class=note>The idea is by Paul-Elliot Anglès d'Auriac, see
-    his <a href="https://github.com/panglesd/slipshow">program on
-    GitHub</a>.</p>
-   <p>B6+ supports a simple version.</p>
-   <p>This slide is an example.</p>
-   <p>Just progress (with space, arrow, click or swipe) to display
-    additional topics.</p>
-   <article class=next>
-    <h2>A topic</h2>
-    <p>This new topic is added…</p>
-   </article>
-   <article class=next>
-    <h2>Another topic</h2>
-    <p>When there is no more space, old content moves up…</p>
-   </article>
-   <table class=next>
-    <thead>
-     <tr><th>Column head A</th><th>Column head B</th></tr>
-    </thead>
-    <tbody>
-     <tr><td>A table</td><td>Just as an example…</td></tr>
-     <tr><td>A2</td><td>B2</td></tr>
-     <tr><td>A3</td><td>B3…</td></tr>
-    </tbody>
-   </table>
-   <article class=next>
-    <h2>A topic with a list</h2>
-    <p>The space for the list is reserved…</p>
-    <ol class=next>
-    <li>… but the list</li>
-    <li>is added separately…</li>
-    </ol>
-   </article>
-   <p class=next>One more bit of content…</p>
-   <p class=next>And a final one.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side">
-   <h2>An image on the side</h2>
-   <img class="side" width=498 height=575
-	src="https://www.w3.org/Talks/2017/0520-CSS-Sud-Web/CSS_color_tree3t"
-	alt="[Picture of a stylized tree with colorful, square leaves]">
-   <p>It seems the famous ‘lorem ipsum’ is based on a text by Cicero,
-   but with the lines mixed up. On a Cicero by the text, it seems the
-   ‘ipsum lorem’ is famous based with lines but mixed up.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side r">
-   <h2>An image on the side</h2>
-   <img class="side" width=498 height=575
-	src="https://www.w3.org/Talks/2017/0520-CSS-Sud-Web/CSS_color_tree3t"
-	alt="[Picture of a stylized tree with colorful, square
-	     leaves]">
-   <p>And again, with class <code>slide side right</code>.</p>
-   <p>It seems the famous ‘lorem ipsum’ is based on a text by Cicero,
-   but with the lines mixed up. On a Cicero by the text, it seems the
-   ‘ipsum lorem’ is famous based with lines but mixed up.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side">
-   <h2>A ‘bleeding’ image</h2>
-   <img class="side cover" width=550 height=451
-	src="https://www.w3.org/2018/Talks/TPAC-2018/ceo-update/diversity.jpg"
-	alt="[Top view of four pairs of hand holding each other crosswise]">
-   <p>Adding class <code>cover</code> to the image makes it stretch to
-   the edges of the slide.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side right">
-   <h2>A ‘bleeding’ image</h2>
-   <img class="side cover" width=550 height=451
-	src="https://www.w3.org/2018/Talks/TPAC-2018/ceo-update/diversity.jpg"
-	alt="[Top view of four pairs of hand holding each other crosswise]">
-   <p>And also on the right side…</p>
-   <p class=note>Hint: Add class=clear on the slide to omit the banner
-   and slide number.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side big">
-   <h2>A big image on the side</h2>
-   <img class="side" width=498 height=575
-	src="https://www.w3.org/Talks/2017/0520-CSS-Sud-Web/CSS_color_tree3t"
-	alt="[Picture of a stylized tree with colorful, square leaves]">
-   <p>It seems the famous ‘lorem ipsum’ is based on a text by Cicero,
-   but with the lines mixed up. On a Cicero by the text, it seems the
-   ‘ipsum lorem’ is famous based with lines but mixed up.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side right big">
-   <h2>A big image on the side</h2>
-   <img class="side" width=498 height=575
-	src="https://www.w3.org/Talks/2017/0520-CSS-Sud-Web/CSS_color_tree3t"
-	alt="[Picture of a stylized tree with colorful, square leaves]">
-   <p>And again, with class ‘slide side right big’.</p>
-   <p>It seems the famous ‘lorem ipsum’ is based on a text by Cicero,
-   but with the lines mixed up…</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side big">
-   <h2>A big, ‘bleeding’ image</h2>
-   <img class="side cover" width=550 height=451
-	src="https://www.w3.org/2018/Talks/TPAC-2018/ceo-update/diversity.jpg"
-	alt="[Top view of four pairs of hand holding each other crosswise]">
-   <p>It seems the famous ‘lorem ipsum’ is based on a text by Cicero,
-   but with the lines mixed up. On a Cicero by the text, it seems
-   ‘ipsum lorem’ is famous based with lines but mixed up.</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide side right big">
-   <h2>A big, ‘bleeding’ image</h2>
-   <img class="side cover" width=550 height=451
-	src="https://www.w3.org/2018/Talks/TPAC-2018/ceo-update/diversity.jpg"
-	alt="[Top view of four pairs of hand holding each other crosswise]">
-   <p>And on the right side…</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide" id="figures">
-   <h2>A figure</h2>
-   <details>
-    <summary>
-     <img src="../Templates/piechart.png" alt="pie chart" height=405
-	  class=can-invert>
-    </summary>
-    <p>The description of the pie chart, here as a table:
-    <table class="striped note">
-     <thead>
-      <tr><th>Name <th>Percentage
-     <tbody>
-      <tr><td>Andy <td>16%
-      <tr><td>Chloe <td>21%
-      <tr><td>Daniel <td>13%
-      <tr><td>Grace <td>20%
-      <tr><td>Sophia <td>30%
-    </table>
-   </details>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide" id="columns">
-   <h2>In columns</h2>
-   <div class="columns">
-    <section>
-     <h3>Title</h3>
-     <p>Children of an element with a class of <code>columns</code> are
-      distributed over two columns</p>
-    </section>
-    <section>
-     <h3>Title</h3>
-     <p>This is the second child, which goes into the right
-      column</p>
-    </section>
-    <section>
-     <h3>Title</h3>
-     <p>And this is the third one. Left column again.</p>
-    </section>
-    <p>Etc.</p>
-   </div>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide" id="place">
-   <div class="place t l"><strong>place t l</strong></div>
-   <div class="place t"><strong>place t</strong></div>
-   <div class="place t r"><strong>place t r</strong></div>
-   <div class="place l">Here is something for the left
-   side, with class <strong>place l</strong></div>
-   <div class="place">class <strong>place</strong> puts an element
-   centered in a 3×3 grid</div>
-   <div class="place r"><strong>place r</strong></div>
-   <div class="place b l"><strong>place b l</strong></div>
-   <div class="place b"><strong>place b</strong></div>
-   <div class="place b r">combine <strong>place</strong> with
-   <strong>top</strong> (or <strong>t</strong>),
-   <strong>right</strong> (or <strong>r</strong>),
-   <strong>bottom</strong> (or <strong>b</strong>) and
-   <strong>left</strong> (or <strong>l</strong>)</div>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-   <h2>Numbered lines of code</h2>
-   <pre class="numbered">
-Lines in a PRE can be numbered
-                       (automatically)
-  * Give the PRE a class of "numbered"
-  * Works for up to 20 lines
-                       (depending on font size)
-  six
-   seven
-   eight
-    nine
-    ten
-  eleven</pre>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-    <h2>Striped tables</h2>
-    <table class="striped">
-      <tr><td>row 1</td><td>has no background</td></tr>
-      <tr><td>row 2</td><td>has a gray background</td></tr>
-      <tr><td>row 3</td><td>has no background</td></tr>
-      <tr><td>row 4</td><td>has a gray background</td></tr>
-      <tr><td>etc.</td><td></td></tr>
-      <tr><td>etc.</td><td></td></tr>
-    </table>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide lightmode">
-   <h2>Image overlay: cover</h2>
-   <!-- Photo by AleRimoldi, source: https://commons.wikimedia.org/wiki/File:Statue_de_Gutenberg_%C3%A0_Strasbourg.jpg -->
-   <img width=500 height=667
-	src="../Templates/gutenberg_f9f9f9.jpg"
-	alt="Image: Statue of Gutenberg"
-	class="cover">
-   <p class="place bottom right">Careful, some images make the text hard to
-   read!</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide lightmode">
-   <h2>Image overlay: fit</h2>
-   <!-- Photo by AleRimoldi, source: https://commons.wikimedia.org/wiki/File:Statue_de_Gutenberg_%C3%A0_Strasbourg.jpg -->
-   <img width=500 height=667
-	src="../Templates/gutenberg_f9f9f9.jpg"
-	alt="Image: Statue of Gutenberg"
-	class="fit">
-   <p class="place l">Careful, some images make the text
-   hard to read!</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide darkmode">
-    <h2>White text</h2>
-    <img width=505 height=353
-	 src="https://www.w3.org/2020/Talks/ac-slides/template/coast.jpg"
-	 class="cover" style="object-position: 94% 100%"
-	 alt="[photo with a beach, cliffs, buildings, dark clouds and a surfer]" >
-    <ul>
-      <li>Use a class of <code>slide darkmode</code> for
-      white-on-black</li>
-      <li>Useful for text on a dark background</li>
-    </ul>
-    <p class="note">(Photo <a
-    href="https://unsplash.com/photos/XBbX5PYOvC0/info" >‘Surfer and
-    the stormy sea’</a> by <a href="https://unsplash.com/@xavifuji"
-    >Xavier Nohet</a>)</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide assemble">
-   <h2>Shout and grow!</h2>
-   <p>Shout:</p>
-   <p class="shout">Takahashi method!</p>
-   <p>Shout &amp; Grow:</p>
-   <p class="shout grow">Animated</p>
-  </section>
-
-  <section class=comment>
-   <p>Notes.</p>
-  </section>
-
-
-  <section class="slide">
-   <h2>Slide transitions</h2>
-   <p>The style sheet predefines several transitions:
+  <section class="slide" id="lists">
+   <h2>Introductions & WSG</h2>
    <ul>
-    <li>fade-in,
-    <li>slide-in,
-    <li>move-left, etc.
+    <li>Quick round of introductions (in-person & remote)</li>
+    <li>Outline of the current WSG
+      <ul>
+        <li>User Experience Design</li>
+        <li>Web Development</li>
+        <li>Hosting, Infrastructure & Systems</li>
+        <li>Business Strategy & Product Management</li>
+      </ul>
+    </li>
    </ul>
-   <p>A transition can be set globally, applying to all slides;
-   <p>or
-   locally, applying only to the transition between this slide and the
-   next.</p>
   </section>
 
   <section class=comment>
-   <p>Notes.</p>
+   <p>Notes for slide 2 can be put here.</p>
   </section>
 
 
-  <section class="slide textfit" id=textfit-example>
-   <h2>Automatically scale text down</h2>
-   <p>If the text doesn't fit, and you really cannot reduce it nor
-    split the slide, you can ask b6+ to scale the text down until it
-    does fit.</p>
-   <p>To do this, add class <code>textfit</code> to the slide.</p>
-   <p>Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   Too much text…<br>
-   The last line.</p>
+  <section class="slide" id="lists">
+   <h2>What's changed changed?</h2>
+   <ul>
+    <li>Since it was a W3C Community Group:
+      <ul>
+        <li>More external review</li>
+        <li>Considerable editing</li>
+        <li>More use of GitHub: <a href="https://github.com/w3c/sustainableweb-ig">/w3c/sustainableweb-ig</a> & <a href="https://github.com/w3c/sustainableweb-wsg">/w3c/sustainableweb-wsg</a></li>
+      </ul>
+    </li>
+   </ul>
+   <img src="./timeline.svg" alt="timeline of WSG development" class="autosize">
+
   </section>
 
   <section class=comment>
-   <p>Notes.</p>
+   <p>Notes for slide 2 can be put here.</p>
   </section>
 
 
-  <section class="slide">
-   <h2>Convert to PDF</h2>
-
-   <svg style="display: none">
-    <symbol id="page-with-curl" viewBox="-10 0 2610 2048">
-     <path fill="currentColor" d="M2395 1533q-39 67 -86 104t-55 37l-977 228q-14 3 -23.5 3t-20.5 1q-177 0 -300 -203t-183 -542l-17 -95q-24 -139 -51 -338t-42 -257l-380 83l-12 1q-40 0 -61 -54t-21 -140q0 -87 38 -152t98 -99t79 -34q6 -2 43 -10l94 -19l132 -25l154 -30l160 -30l152 -29q141 -26 211 -37t126 -11q174 0 268.5 90t129.5 255t62.5 290t50.5 258l29 156q14 79 33 157l210 -43h11q53 0 120 107t67 226q0 85 -39 152zM807 765l32 229q18 132 72.5 342.5t138 331t183.5 120.5l12 -2q18 -4 39.5 -31.5t31.5 -81.5q-24 11 -54 19t-47 8q-25 0 -38.5 -18.5t-13.5 -38.5q0 -37 31 -47.5t121 -34.5q-4 -30 -13 -54t-20 -44q-40 11 -75 17l-77 14l-20 2q-25 0 -38 -17t-13 -38q0 -43 62.5 -55t67.5 -13q-20 -6 -32 -21t-12 -35q0 -22 13.5 -38.5t33.5 -20.5l719 -144q-27 -112 -54 -265t-48 -254l-45 -207l-35 -149q-26 -114 -86.5 -175.5t-186.5 -61.5q-25 0 -50.5 2.5t-53.5 6.5l-80 14q-52 9 -118 21l-294 56l-150 29l-132 27q64 50 108.5 123.5t65.5 152.5t43 237zM2204 1566q51 -29 82 -79t31 -106q0 -52 -22 -105t-66 -106l-887 177q50 58 73 128t23 149q0 24 -6 71.5t-13 52.5zM988.5 1154.5q-11.5 -15.5 -11.5 -35.5q0 -39 43 -52.5t333 -73.5t319 -68l33 -10q16 -5 29.5 -8.5t20.5 -3.5q23 0 37.5 17.5t14.5 37.5q0 21 -16.5 34t-182.5 49.5t-367.5 82.5t-218.5 46q-22 0 -33.5 -15.5zM984 844q-28 0 -43 -16.5t-15 -38.5q0 -46 59 -47.5t194 -35.5l103 -25q90 -23 205 -39.5t156 -29.5t50 -13q21 0 34.5 15.5t13.5 33.5q0 28 -44.5 43.5t-138.5 32.5l-80 15q-81 14 -234.5 55.5t-259.5 49.5zM962 543q-21 0 -32 -14t-11 -31q0 -41 44 -45.5t163 -28.5l170 -33q84 -16 168.5 -31.5t169.5 -27.5h7q19 0 28.5 12.5t9.5 28.5q0 36 -37 43t-255.5 52.5t-418.5 74.5h-6zM847 295.5q-11 -14.5 -11 -33.5q0 -25 15.5 -41.5t188.5 -53t463 -72.5h7q20 0 31 12.5t11 29.5q0 37 -39 48t-192 29t-292 57t-151 39q-20 0 -31 -14.5z" />
-   </svg>
-
-   <div class="columns">
-    <div>
-     <p>Print in <em>portrait</em> mode to get:
-     <ul>
-      <li>multiple slides per page
-      <li>notes between the slides
-     </ul>
-     <div style="border: thin solid; padding: 0.6em 0.6em 0">
-      <p><svg class=icon><use xlink:href="#page-with-curl"></use></svg>
-       Try it! [W3C team only]</p>
-      <p><a href="Overview.html,pdf" title="slides + notes"
-       >A4</a>
-       or <a href="Overview.html,pdfl" title="slides + nodes"
-       >Letter</a></p>
-     </div>
-    </div>
-    <div>
-     <p>Print in <em>landscape</em> mode to get:</p>
-     <ul>
-      <li>one slide = one page
-      <li>no notes
-     </ul>
-     <div style="border: thin solid; padding: 0.6em 0.6em 0">
-      <p><svg class=icon><use xlink:href="#page-with-curl"></use></svg>
-       Try it! [W3C team only]</p>
-      <p><a href="Overview.html,pdf?size=A4+landscape" >PDF
-       slides</a></p>
-     </div>
-    </div>
-   </div>
+  <section class="slide" id="lists">
+   <h2>What about AI?</h2>
+   <ul>
+    <li>AI is a general tool which is disrupting the web</li>
+    <li>It will demand additional energy/water consumption, but may provide sustainability benefits too</li>
+    <li>We are currently investigating how to best incorporate AI recommendations in the WSG</li>
+    <li>We have met with WebML WG/CG</li>
+    <li>We expect that anything related to AI will need regular revisions</li>
+   </ul>
   </section>
 
   <section class=comment>
-   <p>Notes.</p>
+   <p>Notes for slide 2 can be put here.</p>
   </section>
 
 
-  <section class="slide final">
-   <h2>Conclusion</h2>
-   <ol>
-    <li>Making slides is easy</li>
-    <li>Questions?</li>
-   </ol>
+  <section class="slide" id="lists">
+   <h2>Other standards: accessibility & privacy, performance</h2>
+   <ul>
+    <li><a href="https://github.com/w3c/sustainableweb-wsg/issues/157">Accessibility Horizontal Review</a></li>
+    <li><a href="https://github.com/w3c/sustainableweb-wsg/issues/162">Security/Privacy Horizontal Review</a></li>
+    <li><a href="https://www.w3.org/webperf/">Web Performance Working Group</a></li>
+    <li><a href="https://www.w3.org/TR/ethical-web-principles/">Ethical Web Principles</a></li>
+   </ul>
   </section>
 
   <section class=comment>
-   <p>Notes.</p>
+   <p>Notes for slide 2 can be put here.</p>
   </section>
+
+
+  <section class="slide" id="lists">
+   <h2>More masure-ability & avoiding greenwashing</h2>
+    <ul>
+    <li>Educational tools exist: <a href="https://developers.thegreenwebfoundation.org/co2js/overview/">CO.js</a>, <a href="https://WebsiteCarbon.com,">WebsiteCarbon.com,</a>,   <a href="https://ecograder.com/">EcoGrader</a> & others</li>
+    <li>WSG has an API</li>
+    <li></li>
+   </ul>
+   <p><i>"All models are wrong, but some are useful" ~~ George E.P. Box</i></p>
+  </section>
+
+  <section class=comment>
+   <p>Notes for slide 2 can be put here.</p>
+  </section>
+
+
+  <section class="slide" id="lists">
+   <h2>Opportunities for integration</h2>
+    <ul>
+    <li>Pointing to existing W3C documentation</li>
+    <li>Building common APIs</li>
+    <li>Cross-communication with documentation</li>
+    <li>Participation of WSG in other communities</li>
+    <li></li>
+   </ul>
+  </section>
+
+  <section class=comment>
+   <p>Notes for slide 2 can be put here.</p>
+  </section>
+
+
+  <section class="slide" id="lists">
+   <h2>Next steps</h2>
+    <ul>
+    <li>Finalize changes to WSG 1.0</li>
+    <li>Incorporate external review</li>
+    <li></li>
+   </ul>
+  </section>
+
+  <section class=comment>
+   <p>Notes for slide 2 can be put here.</p>
+  </section>
+
+
+  <section class="slide" id="lists">
+   <h2>Discussions</h2>
+    <ul>
+    <li>Do you see ways you could contribute?</li>
+    <li></li>
+   </ul>
+  </section>
+
+  <section class=comment>
+   <p>Notes for slide 2 can be put here.</p>
+  </section>
+
+
 
 
   <!--=============================================================
